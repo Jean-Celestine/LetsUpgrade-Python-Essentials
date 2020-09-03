@@ -1,0 +1,39 @@
+Day 2 assignment
+
+Question 1
+Lists- List is a collection of data which can hold different data types. 
+       Lists are ordered and changeable and it also allows duplicate  elements.
+       Python offers a range of compound data types often referred to as sequences. List is one of the most frequently used and very versatile data types used in Python.
+       They are enclosed within square braces, with commas between one element and the other.
+       Negative indexing can be used to get elements from the end, You can specify a range of indexes by specifying where to start and where to end the range.
+       When specifying a range, the return value will be a new list with the specified items.To change the value of a specific item, refer to the index number.
+
+Dictionaries - Python dictionary is an unordered collection of items. Each item of a dictionary has a key/value pair.
+               Dictionaries are optimized to retrieve values when the key is known.Creating a dictionary is as simple as placing items inside curly braces {} separated by commas.
+               While indexing is used with other data types to access values, a dictionary uses keys. 
+               Keys can be used either inside square brackets [] or with the get() method.Dictionaries are mutable. 
+               We can add new items or change the value of existing items using an assignment operator.
+               We can remove a particular item in a dictionary by using the pop() method. This method removes an item with the provided key and returns the value.
+               
+Sets - A set is an unordered collection of items. Every set element is unique (no duplicates) and must be immutable (cannot be changed).
+        Set itself is mutable. We can add or remove items from it.Sets can also be used to perform mathematical set operations like union, intersection, symmetric difference, etc.
+        A set is created by placing all the items (elements) inside curly braces {}, separated by comma, or by using the built-in set() function.
+        Empty curly braces {} will make an empty dictionary in Python. To make a set without any elements, we use the set() function without any argument.
+        Sets are mutable. However, since they are unordered, indexing has no meaning.We cannot access or change an element of a set using indexing or slicing. Set data type does not support it.
+
+Tuple - A tuple in Python is similar to a list. The difference between the two is that we cannot change the elements of a tuple once it is assigned whereas we can change the elements of a list.
+        A tuple can have any number of items and they may be of different types (integer, float, list, string, etc.).
+        A tuple can also be created without using parentheses. This is known as tuple packing.
+        We can use the index operator [] to access an item in a tuple, where the index starts from 0.
+        Python allows negative indexing for its sequences.
+        
+Strings - A string is a sequence of characters.A character is simply a symbol.
+          trings can be created by enclosing characters inside a single quote or double-quotes. 
+          Even triple quotes can be used in Python but generally used to represent multiline strings and docstrings.
+          We can access individual characters using indexing and a range of characters using slicing. Index starts from 0.
+          Trying to access a character out of index range will raise an IndexError. The index must be an integer.Python allows negative indexing for its sequences.
+          Strings are immutable. This means that elements of a string cannot be changed once they have been assigned. We can simply reassign different strings to the same name.
+          
+
+
+
