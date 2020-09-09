@@ -1,1 +1,28 @@
+lower = 1042000
+higher = 702648265
 
+for i in range (lower, higher+1 ):
+    sum = 0
+
+    n = len(str(i))
+    temp = i
+    while temp > 0 :
+        digit = temp % 10
+        sum += digit ** n
+        temp //= 10
+
+    if i == sum:
+        print(i)
+        
+        
+# OUTPUT
+1741725
+4210818
+9800817
+9926315
+24678050
+24678051
+88593477
+146511208
+472335975
+534494836
